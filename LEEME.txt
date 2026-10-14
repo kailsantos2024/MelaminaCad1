@@ -1,0 +1,15 @@
+DISEÑO DE MUEBLES MELAMINA — INTERFAZ ESTILO CAD
+
+Prototipo con interfaz inspirada en programas CAD:
+- barra de herramientas superior
+- panel de vistas y herramientas a la izquierda
+- vista esquemática 3D central
+- propiedades paramétricas a la derecha
+- lista básica de piezas
+- proyecto JSON y exportación CSV
+
+Para ejecutar: python melamina_sketchup.py
+Para crear el .exe en Windows: ejecutar crear_exe_windows.bat.
+Requiere Python 3 e internet la primera vez para instalar PyInstaller.
+
+Limitaciones: la vista 3D es una proyección esquemática, no un motor CAD real. La selección en la vista es aproximada. Antes de fabricar, verificar todas las medidas. No incluye aún cantos por lado, ranuras, herrajes, bisagras funcionales, planos de armado ni optimización de tableros.

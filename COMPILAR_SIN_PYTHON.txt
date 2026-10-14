@@ -1,0 +1,19 @@
+COMPILAR EL EXE SIN INSTALAR PYTHON EN TU PC
+
+Este paquete incluye el programa y una automatización para compilarlo en un servidor Windows online. Tu computadora solo necesita un navegador.
+
+Pasos:
+1. Inicia sesión o crea una cuenta en GitHub.com.
+2. Crea un repositorio nuevo. Puedes llamarlo MelaminaCAD.
+3. Sube al repositorio todos los archivos de esta carpeta, incluida la carpeta oculta .github/workflows y su archivo build.yml.
+   Si la carpeta .github no se muestra al extraer/copiar, activa la opción para mostrar archivos ocultos o sube los archivos mediante la web de GitHub.
+4. En el repositorio, abre la pestaña Actions.
+5. Selecciona el flujo "Compilar EXE Windows" en la columna izquierda.
+6. Pulsa "Run workflow" y confirma con el botón verde.
+7. Espera a que el trabajo termine en verde. Abre el trabajo y, al final, descarga el artefacto "DisenoMelaminaCAD-Windows".
+8. Descomprime el artefacto: contiene DisenoMelaminaCAD.exe.
+
+No necesitas instalar Python ni PyInstaller en tu computadora. La compilación ocurre en el servidor de GitHub.
+Requiere cuenta GitHub y conexión a internet. La compilación no se ha ejecutado ni verificado desde aquí.
+
+Nota: es un prototipo de interfaz CAD. Revisa sus medidas antes de usar el despiece para fabricar muebles.
